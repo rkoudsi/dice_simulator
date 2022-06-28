@@ -1,0 +1,1 @@
+import randomdef roll():    return 'You rolled a', random.randint(1,6)        num = roll()print("Num: " + str(num))
